@@ -1,0 +1,7 @@
+.test-class {
+    /* !important : Overriding inline styles 
+    예를 들면, element에 id="test"를 통해 특정 색상으로 설정되어 있어도, class="test-class"가 삽입되어 실행될때, !important 설정된 background 색상이 Overriding */
+    background: #00ff00 !important;
+    margin-left: -100px;
+    transition: 1s;
+}
