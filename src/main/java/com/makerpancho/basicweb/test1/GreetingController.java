@@ -18,4 +18,9 @@ public class GreetingController {
         System.out.println(model);
         return "greeting";
     }
+
+    @GetMapping("index")
+    public String index() {
+        return "index";
+    }
 }
